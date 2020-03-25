@@ -1,6 +1,6 @@
 # Yolact_fcos
 This repository implements [YOLACT: Real-time Instance Segmentation](https://arxiv.org/abs/1904.02689) on the [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355)
-detector.
+detector. The model with ResNet-101 backbone achieves 35.2 mAP on COCO val2017 set.
 
 ## Install
 The code is based on [detectron2](https://github.com/facebookresearch/detectron2). Please check [Install.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) for installation instructions.
@@ -34,7 +34,7 @@ Multi GPU(for example 8):
 python train_net.py --num-gpus 8 --config-file configs/Yolact/MS_R_101_3x.yaml --eval-only MODEL.WEIGHTS /path/to/checkpoint_file
 ```
 
-## Results(model still in training,will update new result once finished)
-After training - epochs on the coco dataset using the resnet-101 backbone, the mAP is 0.350 on COCO val2017 dataset:
+## Results
+After training 36 epochs on the coco dataset using the resnet-101 backbone, the mAP is 0.352 on COCO val2017 dataset:
 ![](AP.jpg)
 
