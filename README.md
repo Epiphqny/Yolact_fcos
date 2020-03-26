@@ -39,4 +39,9 @@ After training 36 epochs on the coco dataset using the resnet-101 backbone, the 
 
 <img src="AP.jpg">
 
+## Visualization
+
+<img src="yolact.png">
+
+
 
