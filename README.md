@@ -36,6 +36,7 @@ python train_net.py --num-gpus 8 --config-file configs/Yolact/MS_R_101_3x.yaml -
 
 ## Results
 After training 36 epochs on the coco dataset using the resnet-101 backbone, the mAP is 0.352 on COCO val2017 dataset:
+
 <img src="AP.jpg" width="300" >
 
 
