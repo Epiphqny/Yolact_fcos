@@ -22,7 +22,7 @@ Please adjust the IMS_PER_BATCH in the config file according to the GPU memory.
 Different from the original YOLACT, The repository performs instance segmentation without ROI operations or any box cropping operations, it directly obtains the masks in the whole image size.
 
 ## Inference
-First replace the original detectron2 installed postprocessing.py with the [file](https://github.com/Epiphqny/Yolact_fcos/blob/master/postprocessing.py) in this repository, as the original file only suit for ROI obatined masks.
+First replace the original detectron2 installed postprocessing.py with the [file](https://github.com/Epiphqny/Yolact_fcos/blob/master/postprocessing.py) in this repository, as the original file only suit for ROI obtained masks.
 The path should be like /miniconda3/envs/py37/lib/python3.7/site-packages/detectron2/modeling/postprocessing.py
 
 Single GPU:
